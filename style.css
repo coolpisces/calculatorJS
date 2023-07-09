@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.result {
+    background-color: chocolate;
+    color: white;
+    text-align: end;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.process4 {
+    display: flex;
+    margin: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.column button {
+    padding: 20px;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+
+
+#equal {
+    height: 100%;
+    background-color: green;
+    color: white;
+}
+
+#equal:hover {
+    background-color: rgb(19, 158, 19);
+}
+
+#plus,
+#minus,
+#multiply,
+#divide {
+    background-color: gray;
+    color: white;
+}
+
+#plus:hover,
+#minus:hover,
+#multiply:hover,
+#divide:hover {
+    background-color: rgb(178, 177, 177);
+    color: white;
+}
+
+#c {
+    background-color: red;
+    color: white;
+}
+
+#c:hover {
+    background-color: rgb(255, 92, 92);
+
+}
+
+.column button:hover {
+    background-color: rgb(210, 209, 209);
+}
